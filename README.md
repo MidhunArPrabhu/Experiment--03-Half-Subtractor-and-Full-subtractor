@@ -8,7 +8,7 @@ RegisterNumber:  22008311
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
 ## Equipments Required:
-1.) Hardware – PCs, Cyclone II , USB flasher
+1.) Hardware – PCs, Cyclone II , USB flasher  
 2.) Software – Quartus prime
 ## THEORY :
 Subtractor circuits take two binary numbers as input and subtract one binary number input from the other binary number input. Similar to adders, it gives out two outputs, difference and borrow (carry-in the case of Adder). There are two types of subtractors.
@@ -43,10 +43,6 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: MIDHUN AZHAHU RAJA P  
 RegisterNumber:  22008311
 
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
-If the output is 1, then the led glows.
-
 HALF ADDER:  
 
 module secexp(a,b,difference,borrow);  
@@ -58,12 +54,12 @@ endmodule
 
 FULL ADDER:
 
-module secexp(a,b,c,difference,borrow);
-input a,b,c;
-output difference,borrow;
-assign borrow=(~a&(b^c)|(b&c));
-assign difference=(a^b^c);
-endmodule
+module secexp(a,b,c,difference,borrow);  
+input a,b,c;  
+output difference,borrow;  
+assign borrow=(~a&(b^c)|(b&c));  
+assign difference=(a^b^c);  
+endmodule  
 
 ### LOGIC GATES :
 
@@ -101,11 +97,11 @@ FULL SUBTRACTOR:
 
 ### RTL :
 
-RTL FOR HALF ADDER :  
+RTL FOR HALF SUBTRACTOR :  
 
 ![Screenshot_20230106_095516](https://user-images.githubusercontent.com/118054670/211056187-7fd555c3-4e3c-4546-a6f2-4629429e67fe.png)
 
-RTL FOR FULL ADDER:
+RTL FOR FULL  SUBTRACTOR:
 
 ![Screenshot_20230106_100128](https://user-images.githubusercontent.com/118054670/211056497-4153e7f1-1765-407c-a54c-665c31d14348.png)
 
