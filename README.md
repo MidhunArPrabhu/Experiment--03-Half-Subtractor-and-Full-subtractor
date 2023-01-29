@@ -1,15 +1,13 @@
 ## EXPERIMENT--03-HALF-SUBTRACTOR-AND-FULL-SUBTRACTOR 
 ## IMPLEMENTATION-OF-HALF-SUBTRACTOR-AND-FULL-SUBTRACTOR-CIRCUIT
 
-Developed by: MIDHUN AZHAHU RAJA P   
-RegisterNumber:  22008311  
 
 ## AIM:
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
 ## Equipments Required:
-1.) Hardware – PCs, Cyclone II , USB flasher  
-2.) Software – Quartus prime
+- Hardware – PCs, Cyclone II , USB flasher  
+- Software – Quartus prime
 ## THEORY :
 Subtractor circuits take two binary numbers as input and subtract one binary number input from the other binary number input. Similar to adders, it gives out two outputs, difference and borrow (carry-in the case of Adder). There are two types of subtractors.
 
@@ -35,8 +33,10 @@ Borrow = A'Bin + A'B + BBin
 
 ## PROCEDURE :
 
-Write the detailed procedure here 
+```
+Connect the supply (+5) to the circuit Switch ON the main switch If the output is 1, then the led glows.
 
+```
 ### PROGRAM:  
 ```python
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.  
