@@ -38,29 +38,29 @@ Borrow = A'Bin + A'B + BBin
 Write the detailed procedure here 
 
 ### PROGRAM:  
-
+```python
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.  
 Developed by: MIDHUN AZHAHU RAJA P  
 RegisterNumber:  22008311
-
+```
 HALF ADDER:  
-
-module secexp(a,b,difference,borrow);  
+```python
+module haexp(a,b,difference,borrow);  
 input a,b;  
 output difference,borrow;  
 assign difference=(a^b);  
 assign borrow=(~a&b);  
 endmodule  
-
+```
 FULL ADDER:
-
-module secexp(a,b,c,difference,borrow);  
+```python
+module faexp(a,b,c,difference,borrow);  
 input a,b,c;  
 output difference,borrow;  
 assign borrow=(~a&(b^c)|(b&c));  
 assign difference=(a^b^c);  
 endmodule  
-
+```
 ### LOGIC GATES :
 
 AND GATE :
@@ -109,11 +109,13 @@ RTL FOR FULL  SUBTRACTOR:
 
 HALF SUBTRACTOR :
 
-![Screenshot_20230106_104953](https://user-images.githubusercontent.com/118054670/211064357-9e4829db-4d72-4c9b-af29-ec9043db20ec.png)
+![HFTIRM](https://user-images.githubusercontent.com/118054670/215306098-06df7474-bc0c-431c-8f16-9f050f3e3cb5.png)
+
 
 FULL SUBTRACTOR :
 
-![Screenshot_20230106_103940](https://user-images.githubusercontent.com/118054670/211064304-8b2aec64-d0af-4676-b3a0-dd4a5a8ef3b4.png)
+![FHTIME](https://user-images.githubusercontent.com/118054670/215306112-b878e066-2ca9-449b-a6c5-a3d20cef1a50.png)
+
 
 ## RESULT :
 
